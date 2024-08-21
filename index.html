@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Main text -->
+      <div class="welcome-message">
+        <h1>Welcome to Recipe Finder!</h1>
+        <p>**Find your favorite recipes in no time**</p>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <!-- To display food items category -->
+      <section class="categories-section">
+        <div class="food-images">
+          <img src="Images/biryani.jpeg" alt="Biryani" />
+          <img src="Images/pizza.jpeg" alt="Pizza" />
+          <img src="Images/soup.jpeg" alt="Soup" />
+          <img src="Images/noodles.jpeg" alt="Noodles" />
+          <img src="Images/tiramisu.jpeg" alt="Tiramisu" />
+        </div>
+        <h2>Recipe Categories</h2>
+        <!-- To list the food items -->
+        <div class="categories">
+          <button id="Appetizers-button">Appetizers</button>
+          <button id="Breakfasts-button">Breakfasts</button>
+          <button id="Desserts-button">Desserts</button>
+          <button id="Dinner-button">Dinner</button>
+          <button id="Drinks-button">Drinks</button>
+          <button id="Lunch-button">Lunch</button>
+          <button id="Snacks-button">Snacks</button>
+        </div>
+        
+        <div class="sub-links" id="sub-links"></div>
+      </section>
+
+      
+      <div class="content-container">
+       <!-- To show the corresponding videos -->
+        <section class="video-content-section">
+          <h2>Recipe Videos</h2>
+          <div class="video-content" id="video-content">
+            
+          </div>
+        </section>
+
+        <!-- Feed back form from the users -->
+        <section class="feedback-section">
+          <h2>Guest Feedback</h2>
+          <form id="feedback-form">
+            <label for="guest-name">Your Name:</label>
+            <input type="text" id="guest-name" name="guest-name" required />
+
+            <label for="guest-email">Your Email:</label>
+            <input type="email" id="guest-email" name="guest-email" required />
+
+            <label for="guest-feedback">Your Feedback:</label>
+            <textarea
+              id="guest-feedback"
+              name="guest-feedback"
+              rows="4"
+              required
+            ></textarea>
+
+            <button type="submit">Submit Feedback</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
