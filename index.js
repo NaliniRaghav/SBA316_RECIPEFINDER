@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
         Appetizers: [
             { name: 'Toastwithcheese', video: 'video/toastwithcheese.mp4' },
-            { name: 'sandwich', video: 'video/datespudding.mp4' }
+            { name: 'sandwich', video: 'video/sandwich.mp4' }
         ],
         Drinks: [
             { name: 'Coffee', video: 'video/coffee.mp4' },
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             { name: 'Pasta', video: 'video/pasta.mp4' }
         ],
         Dinner: [
-            { name: 'Ocean sea soup', video: 'video/masalamurukku.mp4' },
+            { name: 'Ocean sea soup', video: 'video/oceanseasoup.mp4' },
             { name: 'Grilled Zucchini', video: 'video/dinner2.mp4' }
         ],
         Desserts: [
